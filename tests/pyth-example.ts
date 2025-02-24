@@ -12,8 +12,8 @@ describe("pyth-example", () => {
     it("Fetch price!", async () => {
         // Add your test here.
         const tx = await program.methods
-            .sample()
-            .accounts({ priceUpdate: new PublicKey("7UVimffxr9ow1uXYxsr4LHAcV58mLzhmwaeKvJ1pjLiE") })
+            .fetchPrice()
+            .accounts({ priceOracle: new PublicKey("7UVimffxr9ow1uXYxsr4LHAcV58mLzhmwaeKvJ1pjLiE") })
             .rpc();
         console.log("Your transaction signature", tx);
     });

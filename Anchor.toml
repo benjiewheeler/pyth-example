@@ -11,7 +11,7 @@ pyth_example = "n3t6sxhffRkPNs8F7pyWMjwrSEnWmRScFBVwofpYNWj"
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "Devnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
